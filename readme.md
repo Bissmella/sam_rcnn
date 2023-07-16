@@ -1,4 +1,4 @@
-# Foobar
+# SAMDet
 
 samDet is segment anything with a small extension for detection head following RCNN method.
 
