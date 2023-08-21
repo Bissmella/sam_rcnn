@@ -19,7 +19,7 @@ The datset folders should have a structure like:
       ├──labels  
       ├──features  
       ├──masks  
-The pre-computed features and masks is available in "data" folder.
+
 
 ## Citation
 
