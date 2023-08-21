@@ -11,14 +11,14 @@ To train the model:
 -Download pre-processed SAM features and masks from https://drive.google.com/drive/folders/12ZcQeC_knOVRW1uUkOFiJYP6d4-PPnrT?usp=sharing
 -Run data-transform.py to create the correct file paths for each 10 folds
 The datset folders should have a structure like:
-  ├──VEDAI
-      ├──images
-      ├──labels
-  ├──VEDAI_1024
-      ├──images
-      ├──labels
-      ├──features
-      ├──masks
+  ├──VEDAI \n
+      ├──images  \n
+      ├──labels   \n
+  ├──VEDAI_1024  \n
+      ├──images   \n
+      ├──labels   \n
+      ├──features   \n
+      ├──masks  \n
 The pre-computed features and masks is available in "data" folder.
 
 ## Citation
