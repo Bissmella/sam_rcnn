@@ -10,7 +10,7 @@ To train the model:
 -Download the VEDAI dataset from: https://downloads.greyc.fr/vedai/  
 -Download pre-processed SAM features and masks from https://drive.google.com/drive/folders/12ZcQeC_knOVRW1uUkOFiJYP6d4-PPnrT?usp=sharing  
 -Run data-transform.py to create the correct file paths for each 10 folds  
-The datset folders should have a structure like:
+The datset folders should have a structure like:  
   ├──VEDAI  
       ├──images  
       ├──labels  
