@@ -6,10 +6,10 @@ samDet is segment anything with a small extension for detection head following R
 VEDAI dataset is used and to make the training process quick the dataset have already been pre-processed by SAM-b and the encoded image-features and the masks have been stored in .npy and text files. Pre-processed data is avaiable at: https://drive.google.com/drive/folders/12ZcQeC_knOVRW1uUkOFiJYP6d4-PPnrT?usp=sharing
 If you wish to use a larger version of SAM, the features and masks can be produced from scratch easily by loading SAM model and going through all images and saving the SAM's image encoder output and output of automatic mask generator of SAM.
 
-To train the model:
--Download the VEDAI dataset from: https://downloads.greyc.fr/vedai/
--Download pre-processed SAM features and masks from https://drive.google.com/drive/folders/12ZcQeC_knOVRW1uUkOFiJYP6d4-PPnrT?usp=sharing
--Run data-transform.py to create the correct file paths for each 10 folds
+To train the model:  
+-Download the VEDAI dataset from: https://downloads.greyc.fr/vedai/  
+-Download pre-processed SAM features and masks from https://drive.google.com/drive/folders/12ZcQeC_knOVRW1uUkOFiJYP6d4-PPnrT?usp=sharing  
+-Run data-transform.py to create the correct file paths for each 10 folds  
 The datset folders should have a structure like:
   ├──VEDAI  
       ├──images  
