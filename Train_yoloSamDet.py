@@ -646,10 +646,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     #############################
     parser.add_argument('--weights', type=str, default='', help='initial weights path')
-    parser.add_argument('--cfg', type=str,default='codes/models/SRyolo_SAM_v3_orig.yaml', help='model.yaml path') #yolov5s
+    parser.add_argument('--cfg', type=str,default='configs/SRyolo_SAM_v3_orig.yaml', help='model.yaml path') #yolov5s
     parser.add_argument('--super', default=False, action='store_true', help='super resolution')
-    parser.add_argument('--data', type=str,default='codes/models/SRvedai.yaml', help='data.yaml path')
-    parser.add_argument('--hyp', type=str, default='codes/models/hyp.scratch.yaml', help='hyperparameters path')
+    parser.add_argument('--data', type=str,default='configs/SRvedai.yaml', help='data.yaml path')
+    parser.add_argument('--hyp', type=str, default='configs/hyp.scratch.yaml', help='hyperparameters path')
     parser.add_argument('--epochs', type=int, default=150)          #*changed default 300
     parser.add_argument('--ch_steam', type=int, default=3)
     parser.add_argument('--ch', type=int,default=128, help = '3 4 16 midfusion1:64 midfusion2,3:128 midfusion4:256')  #*changed from default to match SAM

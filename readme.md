@@ -2,6 +2,24 @@
 
 samDet is segment anything with a small extension for detection head following RCNN method.
 
+# Dataset
+VEDAI dataset is used and to make the training process quick the dataset have already been pre-processed by SAM-b and the encoded image-features and the masks have been stored in .npy and text files.
+If you wish to use a larger version of SAM, the features and masks can be produced from scratch easily by loading SAM model and going through all images and saving the SAM's image encoder output and output of automatic mask generator of SAM.
+
+To train the model:
+-Download the VEDAI dataset from: https://downloads.greyc.fr/vedai/
+-Run data-transform.py to create the correct file paths for each 10 folds
+The datset folders should have a structure like:
+  ├──VEDAI
+      ├──images
+      ├──labels
+  ├──VEDAI_1024
+      ├──images
+      ├──labels
+      ├──features
+      ├──masks
+The pre-computed features and masks is available in "data" folder.
+
 ## Citation
 
 -@article{kirillov2023segany,
