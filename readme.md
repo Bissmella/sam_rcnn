@@ -17,8 +17,8 @@ The datset folders should have a structure like:
   ├──VEDAI_1024  
       ├──images  
       ├──labels  
-      ├──features  
-      ├──masks  
+      ├──features  
+      ├──masks  
 The pre-computed features and masks is available in "data" folder.
 
 ## Citation
