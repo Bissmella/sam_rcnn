@@ -1,6 +1,6 @@
 # SAMDet
 
-samDet is segment anything with a small extension for detection head following RCNN method.
+samDet is an "attempt" to extend segment anything with a small extension for detection head following RCNN method.
 
 # Dataset
 VEDAI dataset is used and to make the training process quick the dataset have already been pre-processed by SAM-b and the encoded image-features and the masks have been stored in .npy and text files. Pre-processed data is avaiable at: https://drive.google.com/drive/folders/12ZcQeC_knOVRW1uUkOFiJYP6d4-PPnrT?usp=sharing  
